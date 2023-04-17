@@ -9,11 +9,7 @@ This Python script uses the requests and BeautifulSoup libraries to scrape game 
 ```
 requests
 BeautifulSoup4
-numpy
 pandas
-multiprocessing
-asyncio
-sys
 csv
 datetime
 time
@@ -37,12 +33,12 @@ The script performs the following steps:
 1. Fetches all the pages containing game listings using the 'get_all_pages()' function.
 2. Stores the fetched pages as pickle objects to avoid re-fetching them later.
 3. Reads the stored pages from pickle files and converts them back to `BeautifulSoup` objects.
-4. Extracts game information from each page using the extract_game_data() function.
+4. Extracts game information from each page using the `extract_game_data()` function.
 5. Combines the extracted data from all pages into a single list and converts it into a pandas DataFrame.
-6. Writes the DataFrame to a CSV file.
+6. Writes the DataFrame to a `CSV` file.
 
 ## Usage
-Install the required dependencies using pip install requests beautifulsoup4 numpy pandas.
+Install the required dependencies using `pip install requests beautifulsoup4 numpy pandas`.
 Run the script with python `metacritic_scraper.py`.
 The script will create a CSV file containing the game data in the "data" folder with a timestamp in its name.
 
