@@ -38,9 +38,9 @@ The script performs the following steps:
 6. Writes the DataFrame to a `CSV` file.
 
 ## Usage
-Install the required dependencies using `pip install requests beautifulsoup4 numpy pandas`.
-Run the script with python `metacritic_scraper.py`.
-The script will create a CSV file containing the game data in the "data" folder with a timestamp in its name.
+- Install the required dependencies using `pip install requests beautifulsoup4 numpy pandas`.
+- Run the script with python `metacritic_scraper.py`.
+- The script will create a CSV file containing the game data in the "data" folder with a timestamp in its name.
 
 ## Disclaimer
 This project is for educational purposes only. All rights to data collected are help by metacritic and its data providers. Use of such data is for commercial purpose is not allowed. By using this script, you take full responsibility for any actions you perform using the data scraped. The author is not responsible for any misuse of the script or any violations of Metacritic's terms of service. Please follow their guidelines and rate limits to avoid causing issues.
