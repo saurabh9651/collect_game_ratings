@@ -1,4 +1,4 @@
-## Metacritic Game Scraper
+## Metacritic Game Ratings Scraper
 
 Description: A Python script to scrape game data from Metacritic.
 
