@@ -1,6 +1,6 @@
 Title: Metacritic Game Scraper
 
-Description: A Python script to scrape game data from Metacritic (https://www.metacritic.com/).
+Description: A Python script to scrape game data from Metacritic.
 
 ## Overview
 This Python script uses the requests and BeautifulSoup libraries to scrape game data from Metacritic's website. The script extracts information such as game title, platform, Metacritic score, user rating, release date, and a summary of the game.
@@ -47,9 +47,7 @@ Run the script with python `metacritic_scraper.py`.
 The script will create a CSV file containing the game data in the "data" folder with a timestamp in its name.
 
 ## Disclaimer
-This project is for educational purposes only. By using this script, you take full responsibility for any actions you perform using the data scraped. The author is not responsible for any misuse of the script or any violations of Metacritic's terms of service.
-
-Before using this script, please ensure you have permission to scrape the Metacritic website and follow their guidelines and rate limits to avoid causing issues. ## 
+This project is for educational purposes only. All rights to data collected are help by metacritic and its data providers. Use of such data is for commercial purpose is not allowed. By using this script, you take full responsibility for any actions you perform using the data scraped. The author is not responsible for any misuse of the script or any violations of Metacritic's terms of service. Please follow their guidelines and rate limits to avoid causing issues.
 
 ## License
 This project is licensed under the MIT License, which allows for free use, modification, and distribution of the code, but does not hold the author liable for any damages or legal issues arising from its use.
